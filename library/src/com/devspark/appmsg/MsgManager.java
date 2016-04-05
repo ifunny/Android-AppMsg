@@ -212,8 +212,8 @@ class MsgManager extends Handler implements Comparator<AppMsg> {
             view.startAnimation(appMsg.mOutAnimation);
         }
 
-        Message msg = obtainMessage(MESSAGE_DISPLAY);
-        sendMessage(msg);
+//        Message msg = obtainMessage(MESSAGE_DISPLAY);
+//        sendMessage(msg);
     }
 
     private void addMsgToView(AppMsg appMsg) {
